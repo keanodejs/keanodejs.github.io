@@ -1,0 +1,221 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Day 6 - Express.js</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=31af7b76b4">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Node.js">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Day 6 - Express.js">
+    <meta property="og:description" content="Time: 11/3-2016, 08:30 - 13:20 Prequisite  Before the start of this day 6 class, you should have completed the online Lynda.com tutorial on    Building a Website with Node.js and Express.js (2h 46m) If you have not created a free account yet you can do">
+    <meta property="og:url" content="http://localhost:2368/22/">
+    <meta property="og:image" content="http://localhost:2368/content/images/2016/01/Screen-Shot-2016-01-06-at-14-34-53.png">
+    <meta property="article:published_time" content="2015-12-19T13:30:06.184Z">
+    <meta property="article:modified_time" content="2016-03-10T21:08:39.146Z">
+    <meta property="article:tag" content="ExpressJs">
+    <meta property="article:tag" content="Node.js">
+    <meta property="article:tag" content="Day 6">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Day 6 - Express.js">
+    <meta name="twitter:description" content="Time: 11/3-2016, 08:30 - 13:20 Prequisite  Before the start of this day 6 class, you should have completed the online Lynda.com tutorial on    Building a Website with Node.js and Express.js (2h 46m) If you have not created a free account yet you can do">
+    <meta name="twitter:url" content="http://localhost:2368/22/">
+    <meta name="twitter:image:src" content="http://localhost:2368/content/images/2016/01/Screen-Shot-2016-01-06-at-14-34-53.png">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Claus Bové">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="ExpressJs, Node.js, Day 6">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Node.js",
+        "logo": "http://localhost:2368/content/images/2016/06/nodejs-logo.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Claus Bové",
+        "image": "//www.gravatar.com/avatar/844ba99bc45032ab16c3993edb4d5e9b?s=250&d=mm&r=x",
+        "url": "http://localhost:2368/author/claus/",
+        "sameAs": []
+    },
+    "headline": "Day 6 - Express.js",
+    "url": "http://localhost:2368/22/",
+    "datePublished": "2015-12-19T13:30:06.184Z",
+    "dateModified": "2016-03-10T21:08:39.146Z",
+    "image": "http://localhost:2368/content/images/2016/01/Screen-Shot-2016-01-06-at-14-34-53.png",
+    "keywords": "ExpressJs, Node.js, Day 6",
+    "description": "Time: 11/3-2016, 08:30 - 13:20 Prequisite  Before the start of this day 6 class, you should have completed the online Lynda.com tutorial on    Building a Website with Node.js and Express.js (2h 46m) If you have not created a free account yet you can do"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.8">
+    <link rel="alternate" type="application/rss+xml" title="Node.js" href="../rss/index.html">
+    <!-- inserted by lbo -->
+<style>
+    /*pre {background-color: #333; color: #fff}*/
+    .scroll-down {display : none !important}
+    </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body class="post-template tag-expressjs tag-node-js tag-day-6 nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+            <li class="nav-github-repositories" role="presentation"><a href="https://github.com/keanodejs/">Github Repositories</a></li>
+            <li class="nav-curriculum" role="presentation"><a href="../29/">Curriculum</a></li>
+            <li class="nav-exam-requirements" role="presentation"><a href="../exam-requirements/">Exam Requirements</a></li>
+            <li class="nav-mandatory-assignments" role="presentation"><a href="../7/">Mandatory Assignments</a></li>
+    </ul>
+        <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head " style="background-image: url(http://localhost:2368/content/images/2016/01/Screen-Shot-2016-01-06-at-14-34-53.png)">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href="../"><img src="../content/images/2016/06/nodejs-logo.png" alt="Node.js"></a>
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-expressjs tag-node-js tag-day-6">
+
+        <header class="post-header">
+            <h1 class="post-title">Day 6 - Express.js</h1>
+            <section class="post-meta">
+               <!-- <time class="post-date" datetime="2015-12-19">19 December 2015</time> -->  tags: <a href="../tag/expressjs/">ExpressJs</a>, <a href="../tag/node-js/">Node.js</a>, <a href="../tag/day-6/">Day 6</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p><strong>Time</strong>: 11/3-2016, 08:30 - 13:20</p>
+
+<p><em><strong>Prequisite</strong></em> <br>
+Before the start of this day 6 class, you should have completed the online Lynda.com tutorial on   </p>
+
+<ul>
+<li><a href="http://www.lynda.com/Expressjs-tutorials/Building-Website-Nodejs-Expressjs/163094-2.html">Building a Website with Node.js and Express.js</a> (2h 46m)</li>
+</ul>
+
+<p>If you have not created a free account yet you can do it by following <a href="../how-to-create-a-lynda-com-account/">these steps</a>.</p>
+
+<p>ExpressJS is maybe the most used Module on the Node.js platform, and today we will work with that.</p>
+
+<p><strong>Curriculum</strong></p>
+
+<ul>
+<li><a href="http://www.lynda.com/Expressjs-tutorials/Building-Website-Nodejs-Expressjs/163094-2.html">Building a Website with Node.js and Express.js</a> (2h 46m)   </li>
+<li><a href="http://expressjs.com/en/4x/api.html">Express.js 4.x API</a></li>
+<li>Expressjs Getting Started
+<ul><li><a href="http://expressjs.com/en/starter/installing.html">http://expressjs.com/en/starter/installing.html</a> </li>
+<li><a href="http://expressjs.com/en/starter/hello-world.html">http://expressjs.com/en/starter/hello-world.html</a></li>
+<li><a href="http://expressjs.com/en/starter/basic-routing.html">http://expressjs.com/en/starter/basic-routing.html</a></li></ul></li>
+<li><a href="http://expressjs.com/en/guide/writing-middleware.html">Writing middleware for use in Express apps</a></li>
+<li><a href="http://expressjs.com/en/guide/using-middleware.html">Using middleware</a></li>
+</ul>
+
+<p><strong>Supplements to the Curriculum</strong>      </p>
+
+<p><strong>Exercises</strong></p>
+
+<p><strong>Code on Github:</strong> </p>
+
+<p><a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;query=06">Materials from today</a></p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/claus/" style="background-image: url(http://www.gravatar.com/avatar/844ba99bc45032ab16c3993edb4d5e9b?s&amp;)"><span class="hidden">Claus Bové's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/claus/">Claus Bové</a></h4>
+
+                    <p>Read <a href="../author/claus/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=Day%206%20-%20Express.js&amp;url=http://localhost:2368/22/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/22/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/22/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story " style="background-image: url(http://localhost:2368/content/images/2016/01/node-mongodb-on-heroku.png)" href="../23/">
+        <section class="post">
+            <h2>Day 12 - Deployment</h2>
+            <p>Curriculum Heroku - Getting started with node.js and MongoDB Exercises Github Materials from today…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev " style="background-image: url(http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png)" href="../21/">
+        <section class="post">
+            <h2>Day 2 - Basic HTML &amp; CSS</h2>
+            <p>Time: 08/09-2016, 11:00 - 15:45    Lessons moved: Location Bispevej 5 - Thursday: 11:00-15:45 Curriculum…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">Node.js</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=31af7b76b4"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=31af7b76b4"></script>
+
+</body>
