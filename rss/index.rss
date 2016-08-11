@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Thu, 11 Aug 2016 19:01:20 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Thu, 11 Aug 2016 19:02:08 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
 
@@ -183,11 +183,13 @@ Get the user you inserted earlier in this exercise. You should identify the pers
 &lt;td&gt;36&lt;/td&gt;  
 &lt;td&gt;&lt;b&gt;8/9 - 2016 *&lt;/b&gt;&lt;/td&gt;  
 &lt;td&gt;&lt;b&gt;11:45 - 15:45&lt;/b&gt;&lt;/td&gt;  
-&lt;td&gt;Day 2 &lt;a href="http://localhost:2368/21/"&gt;Basic HTML &amp; CSS&lt;/a&gt;&lt;br&gt;&lt;small&gt;&lt;i&gt;Lessons moved to Thursday 8/9, 11:45-15:45. Location: Lygten 16, Basement (rumfærgen)&lt;/i&gt;&lt;/small&gt;&lt;/td&gt;  
+&lt;td&gt;Day 2 &lt;a href="http://localhost:2368/21/"&gt;Basic HTML &amp; CSS&lt;/a&gt;&lt;br&gt;&lt;!--&lt;small&gt;&lt;i&gt;Lessons moved to Thursday 8/9, 11:45-15:45. Location: Lygten 16, Basement (rumfærgen)&lt;/i&gt;&lt;/small&gt;--&gt;&lt;/td&gt;  
 &lt;/tr&gt;  
 &lt;tr&gt;  
 &lt;td&gt;37&lt;/td&gt;  
-&lt;td&gt;&lt;b&gt;13/&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description><link>http://localhost:2368/teaching-schedule/</link><guid isPermaLink="false">27b0b853-8a6c-4bcd-b887-f20ff281fd61</guid><dc:creator>Claus Bové</dc:creator><pubDate>Fri, 05 Feb 2016 23:49:00 GMT</pubDate><content:encoded>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
+&lt;td&gt;&lt;b&gt;13/9 - 2016 *&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;14:15 - 15:45&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;Day 3a &lt;a href="http://localhost:2368/14/"&gt;Version Control with Git&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description><link>http://localhost:2368/teaching-schedule/</link><guid isPermaLink="false">27b0b853-8a6c-4bcd-b887-f20ff281fd61</guid><dc:creator>Claus Bové</dc:creator><pubDate>Fri, 05 Feb 2016 23:49:00 GMT</pubDate><content:encoded>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
 
 &lt;table id="tbl"&gt;  
 &lt;tr&gt;  
@@ -206,7 +208,7 @@ Get the user you inserted earlier in this exercise. You should identify the pers
 &lt;td&gt;36&lt;/td&gt;  
 &lt;td&gt;&lt;b&gt;8/9 - 2016 *&lt;/b&gt;&lt;/td&gt;  
 &lt;td&gt;&lt;b&gt;11:45 - 15:45&lt;/b&gt;&lt;/td&gt;  
-&lt;td&gt;Day 2 &lt;a href="http://localhost:2368/21/"&gt;Basic HTML &amp; CSS&lt;/a&gt;&lt;br&gt;&lt;small&gt;&lt;i&gt;Lessons moved to Thursday 8/9, 11:45-15:45. Location: Lygten 16, Basement (rumfærgen)&lt;/i&gt;&lt;/small&gt;&lt;/td&gt;  
+&lt;td&gt;Day 2 &lt;a href="http://localhost:2368/21/"&gt;Basic HTML &amp; CSS&lt;/a&gt;&lt;br&gt;&lt;!--&lt;small&gt;&lt;i&gt;Lessons moved to Thursday 8/9, 11:45-15:45. Location: Lygten 16, Basement (rumfærgen)&lt;/i&gt;&lt;/small&gt;--&gt;&lt;/td&gt;  
 &lt;/tr&gt;  
 &lt;tr&gt;  
 &lt;td&gt;37&lt;/td&gt;  
