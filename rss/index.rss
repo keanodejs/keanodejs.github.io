@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Mon, 15 Aug 2016 07:57:07 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Mon, 15 Aug 2016 08:05:51 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
 
@@ -419,11 +419,11 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 
 &lt;p&gt;In this first class you will get introduced to what we are going to work on the next 14 weeks.   &lt;/p&gt;
 
-&lt;p&gt;You will also get an introduction to the Node.js server, you will download and install the server, and you will create&lt;/p&gt;</description><link>http://localhost:2368/13/</link><guid isPermaLink="false">e5a35968-9b1f-423f-8783-1a63b3bf7dd4</guid><category>Getting Started</category><category>Node.js</category><category>Day 1</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 04 Feb 2016 14:22:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/08/nodejs--1-.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/08/nodejs--1-.png" alt="Day 1 - Introduction"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 5/2-2016, 08:30 - 13:20&lt;/p&gt;
+&lt;p&gt;You will also get an introduction to the Node.js framework, you will download and install the framework, and you will create&lt;/p&gt;</description><link>http://localhost:2368/13/</link><guid isPermaLink="false">e5a35968-9b1f-423f-8783-1a63b3bf7dd4</guid><category>Getting Started</category><category>Node.js</category><category>Day 1</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 04 Feb 2016 14:22:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/08/nodejs--1-.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/08/nodejs--1-.png" alt="Day 1 - Introduction"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 5/2-2016, 08:30 - 13:20&lt;/p&gt;
 
 &lt;p&gt;In this first class you will get introduced to what we are going to work on the next 14 weeks.   &lt;/p&gt;
 
-&lt;p&gt;You will also get an introduction to the Node.js server, you will download and install the server, and you will create your first webserver and webpage. This webserver will run locally on your computer and it will be accessable on your local network for everybody. &lt;/p&gt;
+&lt;p&gt;You will also get an introduction to the Node.js framework, you will download and install the framework, and you will create your first webserver and webpage. This webserver will run locally on your computer and it will be accessable on your local network for everybody. &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
 
