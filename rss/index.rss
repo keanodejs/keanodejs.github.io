@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Wed, 07 Sep 2016 06:30:44 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Wed, 07 Sep 2016 11:05:18 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
 
@@ -620,6 +620,12 @@ Location: Lygten 16, Basement (rumfærgen) - Wednesday: 14:00-17:45&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://www.lynda.com/CSS-tutorials/CSS-Fundamentals/417645-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3acss%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2"&gt;CSS Fundamentals&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=02"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;!-- Materials for this class: [Google Docs](https://docs.google.com/document/d/1TcPaRu1PBTyH9Z2p_4PLapGIJp5O1TS9clviUKMSL4A/edit) --&gt;</description><link>http://localhost:2368/21/</link><guid isPermaLink="false">41112ee1-60a4-4a4c-9b75-e322cc944d42</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 14 Dec 2015 15:27:51 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/08/html-css-js-logos-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/08/html-css-js-logos-1.png" alt="Day 2 - Basic HTML &amp; CSS"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 07/09-2016, 14:00 - 17:45   &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Lessons moved&lt;/strong&gt; &lt;br&gt;
@@ -637,6 +643,12 @@ Location: Lygten 16, Basement (rumfærgen) - Wednesday: 14:00-17:45&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.lynda.com/HTML-tutorials/Welcome/182177/370804-4.html"&gt;HTML5: Structure, Syntax, and Semantics&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.lynda.com/CSS-tutorials/CSS-Fundamentals/417645-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3acss%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2"&gt;CSS Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=02"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- Materials for this class: [Google Docs](https://docs.google.com/document/d/1TcPaRu1PBTyH9Z2p_4PLapGIJp5O1TS9clviUKMSL4A/edit) --&gt;</content:encoded></item></channel></rss>
