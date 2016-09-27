@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Tue, 27 Sep 2016 04:59:46 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Tue, 27 Sep 2016 18:53:19 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
 
@@ -566,24 +566,14 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;p&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=12"&gt;Materials from today&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 6 - Express.js</title><description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5/10-2016, 08:30 - 13:15 &lt;br&gt;
 &lt;em&gt;Notice that the time has changed!&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
-Before the start of this day 6 class, you should have completed the online Lynda.com tutorial on   &lt;/p&gt;
+&lt;p&gt;ExpressJS is maybe the most used Module on the Node.js platform, and today we will work with that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.lynda.com/Expressjs-tutorials/Building-Website-Nodejs-Expressjs/163094-2.html"&gt;Building a Website with Node.js and Express.js&lt;/a&gt; (2h 46m)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have not created a&lt;/p&gt;</description><link>http://localhost:2368/22/</link><guid isPermaLink="false">74c0c9a4-c493-454e-b447-67476f16f0b4</guid><category>ExpressJs</category><category>Node.js</category><category>Day 6</category><dc:creator>Claus Bové</dc:creator><pubDate>Sat, 19 Dec 2015 13:30:06 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/09/expressjs-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/09/expressjs-1.png" alt="Day 6 - Express.js"&gt;&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5/10-2016, 08:30 - 13:15 &lt;br&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/Expressjs-tutorials/Building-Website-Nodejs-Expressjs/163094-2.html"&gt;Building a Website with Node.js and Express.js&lt;/a&gt; (2h 46m)   &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/4x/api.html"&gt;Express.js 4.x API&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/22/</link><guid isPermaLink="false">74c0c9a4-c493-454e-b447-67476f16f0b4</guid><category>ExpressJs</category><category>Node.js</category><category>Day 6</category><dc:creator>Claus Bové</dc:creator><pubDate>Sat, 19 Dec 2015 13:30:06 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/09/expressjs-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/09/expressjs-1.png" alt="Day 6 - Express.js"&gt;&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5/10-2016, 08:30 - 13:15 &lt;br&gt;
 &lt;em&gt;Notice that the time has changed!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
-Before the start of this day 6 class, you should have completed the online Lynda.com tutorial on   &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.lynda.com/Expressjs-tutorials/Building-Website-Nodejs-Expressjs/163094-2.html"&gt;Building a Website with Node.js and Express.js&lt;/a&gt; (2h 46m)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have not created a free account yet you can do it by following &lt;a href="http://localhost:2368/how-to-create-a-lynda-com-account/"&gt;these steps&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;ExpressJS is maybe the most used Module on the Node.js platform, and today we will work with that.&lt;/p&gt;
 

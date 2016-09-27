@@ -1,3 +1,1 @@
-User-agent: *
-Sitemap: http://localhost:2368/sitemap.xml
-Disallow: /ghost/
+<h1>Hello world</h1> <p>i was displayed after NaN seconds
