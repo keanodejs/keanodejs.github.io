@@ -1,0 +1,213 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Day 10 - Rest Api</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e9bf4574d2">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Node.js">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Day 10 - Rest Api">
+    <meta property="og:description" content="Curriculum RESTful Best Practices JSON CORS supplements to the curriculum steams    Exercises /Orders/ route Tools Postman for Chrome (extension for Chrome) JSONView (extension for Chrome) Github Materials from today">
+    <meta property="og:url" content="http://localhost:2368/25/">
+    <meta property="og:image" content="http://localhost:2368/content/images/2016/11/RESTful-API-design-1014x457.jpg">
+    <meta property="article:published_time" content="2016-01-04T19:17:59.785Z">
+    <meta property="article:modified_time" content="2016-11-07T19:33:54.388Z">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Day 10 - Rest Api">
+    <meta name="twitter:description" content="Curriculum RESTful Best Practices JSON CORS supplements to the curriculum steams    Exercises /Orders/ route Tools Postman for Chrome (extension for Chrome) JSONView (extension for Chrome) Github Materials from today">
+    <meta name="twitter:url" content="http://localhost:2368/25/">
+    <meta name="twitter:image:src" content="http://localhost:2368/content/images/2016/11/RESTful-API-design-1014x457.jpg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Claus Bové">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Node.js",
+        "logo": "http://localhost:2368/content/images/2016/06/nodejs-logo.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Claus Bové",
+        "image": "//www.gravatar.com/avatar/844ba99bc45032ab16c3993edb4d5e9b?s=250&d=mm&r=x",
+        "url": "http://localhost:2368/author/claus/",
+        "sameAs": []
+    },
+    "headline": "Day 10 - Rest Api",
+    "url": "http://localhost:2368/25/",
+    "datePublished": "2016-01-04T19:17:59.785Z",
+    "dateModified": "2016-11-07T19:33:54.388Z",
+    "image": "http://localhost:2368/content/images/2016/11/RESTful-API-design-1014x457.jpg",
+    "description": "Curriculum RESTful Best Practices JSON CORS supplements to the curriculum steams    Exercises /Orders/ route Tools Postman for Chrome (extension for Chrome) JSONView (extension for Chrome) Github Materials from today"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.8">
+    <link rel="alternate" type="application/rss+xml" title="Node.js" href="../rss/index.html">
+    <!-- inserted by lbo -->
+<style>
+    /*pre {background-color: #333; color: #fff}*/
+    .scroll-down {display : none !important}
+    </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+            <li class="nav-github-repositories" role="presentation"><a href="https://github.com/keanodejs/">Github Repositories</a></li>
+            <li class="nav-curriculum" role="presentation"><a href="../29/">Curriculum</a></li>
+            <li class="nav-exam-requirements" role="presentation"><a href="../exam-requirements/">Exam Requirements</a></li>
+            <li class="nav-mandatory-assignments" role="presentation"><a href="../7/">Mandatory Assignments</a></li>
+    </ul>
+        <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head " style="background-image: url(../content/images/2016/11/RESTful-API-design-1014x457.jpg)">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href="../"><img src="../content/images/2016/06/nodejs-logo.png" alt="Node.js"></a>
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Day 10 - Rest Api</h1>
+            <section class="post-meta">
+               <!-- <time class="post-date" datetime="2016-01-04">04 January 2016</time> --> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p><strong>Curriculum</strong></p>
+
+<ul>
+<li><a href="http://www.restapitutorial.com/media/RESTful_Best_Practices-v1_1.pdf">RESTful Best Practices</a></li>
+<li><a href="http://json.org/">JSON</a></li>
+<li><a href="https://www.w3.org/wiki/CORS_Enabled#What_is_CORS_about.3F">CORS</a></li>
+</ul>
+
+<p><strong>supplements to the curriculum</strong></p>
+
+<ul>
+<li><a href="http://www.lynda.com/Node-js-tutorials/Readable-file-streams/417077/454449-4.html?autoplay=true">steams</a>   </li>
+</ul>
+
+<p><strong>Exercises</strong></p>
+
+<ul>
+<li><a href="../35/">/Orders/ route</a></li>
+</ul>
+
+<p><strong>Tools</strong></p>
+
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop">Postman for Chrome</a> (extension for Chrome)</li>
+<li><a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc">JSONView</a> (extension for Chrome)</li>
+</ul>
+
+<p><strong>Github</strong></p>
+
+<ul>
+<li><a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;query=10">Materials from today</a></li>
+</ul>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/claus/" style="background-image: url(http://www.gravatar.com/avatar/844ba99bc45032ab16c3993edb4d5e9b?s&amp;)"><span class="hidden">Claus Bové's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/claus/">Claus Bové</a></h4>
+
+                    <p>Read <a href="../author/claus/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=Day%2010%20-%20Rest%20Api&amp;url=http://localhost:2368/25/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/25/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/25/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../28/">
+        <section class="post">
+            <h2>Day 11 - Authentication</h2>
+            <p>…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev " style="background-image: url(../content/images/2016/09/JavaScript-Logo-1.jpg)" href="../24/">
+        <section class="post">
+            <h2>Day 4 - Javascript</h2>
+            <p>Time: 20/9-2016, 8:30 - 11:45 Today we will cover the basics of the Javascript language, and…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">Node.js</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e9bf4574d2"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e9bf4574d2"></script>
+
+</body>

@@ -1,0 +1,253 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>09.1 Exercise: MongoDB Getting Started</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=e9bf4574d2">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Node.js">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="09.1 Exercise: MongoDB Getting Started">
+    <meta property="og:description" content="The information you will need for this exercise can be found at this website. Create a database called store. In this there should be a collection called users, and a collection called products. Insert  Insert 3 users in the users collection. The 2 below, and one your create yourself (your">
+    <meta property="og:url" content="http://localhost:2368/32/">
+    <meta property="article:published_time" content="2016-02-10T02:28:12.907Z">
+    <meta property="article:modified_time" content="2016-04-08T09:11:15.008Z">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="09.1 Exercise: MongoDB Getting Started">
+    <meta name="twitter:description" content="The information you will need for this exercise can be found at this website. Create a database called store. In this there should be a collection called users, and a collection called products. Insert  Insert 3 users in the users collection. The 2 below, and one your create yourself (your">
+    <meta name="twitter:url" content="http://localhost:2368/32/">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Claus Bové">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Node.js",
+        "logo": "http://localhost:2368/content/images/2016/06/nodejs-logo.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Claus Bové",
+        "image": "//www.gravatar.com/avatar/844ba99bc45032ab16c3993edb4d5e9b?s=250&d=mm&r=x",
+        "url": "http://localhost:2368/author/claus/",
+        "sameAs": []
+    },
+    "headline": "09.1 Exercise: MongoDB Getting Started",
+    "url": "http://localhost:2368/32/",
+    "datePublished": "2016-02-10T02:28:12.907Z",
+    "dateModified": "2016-04-08T09:11:15.008Z",
+    "description": "The information you will need for this exercise can be found at this website. Create a database called store. In this there should be a collection called users, and a collection called products. Insert  Insert 3 users in the users collection. The 2 below, and one your create yourself (your"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.8">
+    <link rel="alternate" type="application/rss+xml" title="Node.js" href="../rss/index.html">
+    <!-- inserted by lbo -->
+<style>
+    /*pre {background-color: #333; color: #fff}*/
+    .scroll-down {display : none !important}
+    </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body class="post-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+            <li class="nav-github-repositories" role="presentation"><a href="https://github.com/keanodejs/">Github Repositories</a></li>
+            <li class="nav-curriculum" role="presentation"><a href="../29/">Curriculum</a></li>
+            <li class="nav-exam-requirements" role="presentation"><a href="../exam-requirements/">Exam Requirements</a></li>
+            <li class="nav-mandatory-assignments" role="presentation"><a href="../7/">Mandatory Assignments</a></li>
+    </ul>
+        <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        <a class="blog-logo" href="../"><img src="../content/images/2016/06/nodejs-logo.png" alt="Node.js"></a>
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">09.1 Exercise: MongoDB Getting Started</h1>
+            <section class="post-meta">
+               <!-- <time class="post-date" datetime="2016-02-10">10 February 2016</time> --> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>The information you will need for this exercise can be found at this <a href="https://docs.mongodb.org/manual/core/crud-introduction/">website</a>.</p>
+
+<p>Create a database called store. In this there should be a collection called users, and a collection called products.</p>
+
+<p><strong>Insert</strong> <br>
+Insert 3 users in the users collection. The 2 below, and one your create yourself (your own name e.g). You can insert these one at a time or all 3 at the same time by wrapping them in an array [ ]</p>
+
+<pre><code class="language-javascript">{
+        "name" : "Claus",
+        "lastName" : "Bové",
+        "address" : "Svanemøllevej 56",
+        "phone" : "004512345678",
+        "email" : "clbo@kea.dk"
+}
+</code></pre>
+
+<pre><code class="language-javascript">{
+        "name" : "Anna",
+        "lastName" : "Messner",
+        "address" : "Lygten 16",
+        "phone" : "004512345678",
+        "email" : "anna@stud.kea.dk"
+}
+</code></pre>
+
+<p><br>
+Insert 3 products in the products collection. The 2 below, and one your create yourself. You can insert these one at a time or all 3 at the same time by wrapping them in an array [ ]</p>
+
+<pre><code class="language-javascript">{
+        "make" : "Burton Menswear London",
+        "name" : "Print T-shirt",
+        "color" : "white",
+        "price" : 16,
+        "size" : ["small", "medium", "large", "x-large"],
+        "details" : {
+                "length" : "standard",
+                "fit" : "normal",
+                "fabric" : "jersey",
+                "Neckline" : "Crew neck",
+                "Total length" : "28.0\"  (Size M)"
+        }
+}
+</code></pre>
+
+<pre><code class="language-javascript">{
+        "make" : "ONLY",
+        "name" : "ONLNEW - Slim fit jeans",
+        "color" : "black olive",
+        "price" : 30,
+        "size" : ["x-small", "small", "medium", "large", "x-large"],
+        "details" : {
+                "length" : "long",
+                "fit" : "normal",
+                "Pockets" : "Back pocket",
+                "outer leg length" : "40.0\" (Size S)",
+                "inner leg length" :  "31.5\" (Size S)"
+        }
+}
+</code></pre>
+
+<p>`   </p>
+
+<p><strong>Querying</strong> <br>
+Select all users, and after that select all products. <br>
+Then select the user with your own name, and then a single product of your own choice, by querying on the “_id”</p>
+
+<p><strong>Update</strong> <br>
+The user with the name “Claus” should have another address. <br>
+Change the address to “Lygten 16”</p>
+
+<p>The product ONLY, needs to have the name field changed to “ONLY NEW - Slim fit jeans”</p>
+
+<p><strong>Remove</strong> <br>
+Remove the user with the name Anna <br>
+Remove the product with the make “Burton Menswear London”</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/claus/" style="background-image: url(http://www.gravatar.com/avatar/844ba99bc45032ab16c3993edb4d5e9b?s&amp;)"><span class="hidden">Claus Bové's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/claus/">Claus Bové</a></h4>
+
+                    <p>Read <a href="../author/claus/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=09.1%20Exercise%3A%20MongoDB%20Getting%20Started&amp;url=http://localhost:2368/32/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/32/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/32/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story " style="background-image: url(http://localhost:2368/content/images/2016/03/learnyounode.png)" href="../33/">
+        <section class="post">
+            <h2>05 Exercise: learnyounode</h2>
+            <p>Learnyounode is an intro to Node.js via a set of self-guided workshops. It is run through the console…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../31/">
+        <section class="post">
+            <h2>09.2 Exercise: MongoDB 2.0.0 Driver</h2>
+            <p>In the following exercises you should create 4 different applications (4 different javascript files), each containing 1 of the…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">Node.js</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=e9bf4574d2"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=e9bf4574d2"></script>
+
+</body>

@@ -1,0 +1,655 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Mon, 07 Nov 2016 21:38:51 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;users&lt;/li&gt;
+&lt;li&gt;products &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And you should be able to view an API in the browser and get, post, put and delete through this api.&lt;/p&gt;
+
+&lt;p&gt;On this&lt;/p&gt;</description><link>http://localhost:2368/35/</link><guid isPermaLink="false">abefc991-d79b-4729-a162-0d2eb2419319</guid><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 28 Apr 2016 21:39:05 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/04/Screen-Shot-2016-04-28-at-23-45-34.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/04/Screen-Shot-2016-04-28-at-23-45-34.png" alt="11 Exercise: /Orders/"&gt;&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;users&lt;/li&gt;
+&lt;li&gt;products &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And you should be able to view an API in the browser and get, post, put and delete through this api.&lt;/p&gt;
+
+&lt;p&gt;On this &lt;a href="http://clbostore.azurewebsites.net/api/orders/562793b4802faf96447e9b19"&gt;url&lt;/a&gt; you can se an example of how an order should be structured.&lt;/p&gt;
+
+&lt;p&gt;An order has information about one or more products in an order. It has information about the user who placed the order, and it has information about the status of the order.&lt;/p&gt;
+
+&lt;p&gt;Your job is to create 5 routes for the orders. A get, a get one, a post, a put, and a delete route.&lt;/p&gt;</content:encoded></item><item><title>08 Exercise: twitter &amp; socket.io</title><description>&lt;p&gt;Based on what we have done today and what you know from the earlier classes create an app that gets the latest tweet containing words of your own choice, and pushes it to a webpage made with the use of the express.js framework.&lt;/p&gt;</description><link>http://localhost:2368/34/</link><guid isPermaLink="false">416abf5f-b45c-4c4c-8481-beefafad559e</guid><category>Socket.io</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 31 Mar 2016 20:23:44 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/03/twitter-social-network-icon-vector_652139.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/03/twitter-social-network-icon-vector_652139.jpg" alt="08 Exercise: twitter &amp; socket.io"&gt;&lt;p&gt;Based on what we have done today and what you know from the earlier classes create an app that gets the latest tweet containing words of your own choice, and pushes it to a webpage made with the use of the express.js framework.&lt;/p&gt;</content:encoded></item><item><title>05 Exercise: learnyounode</title><description>&lt;p&gt;Learnyounode is an intro to Node.js via a set of self-guided workshops.&lt;/p&gt;
+
+&lt;p&gt;It is run through the console and everything is explained along the way. &lt;br&gt;
+This workshop covers what you have seen in the &lt;a href="http://www.lynda.com/SharedPlaylist/8330249d6cd34188aebe5aeb9b399491"&gt;Lynda.com tutorials for this class&lt;/a&gt;, and you will have to use the &lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/"&gt;node documentation&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/33/</link><guid isPermaLink="false">b8254e62-c51c-4514-94b2-aed86e5a9d61</guid><category>Node.js</category><category>Exercises</category><category>Day 5</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 03 Mar 2016 23:04:32 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/03/learnyounode.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/03/learnyounode.png" alt="05 Exercise: learnyounode"&gt;&lt;p&gt;Learnyounode is an intro to Node.js via a set of self-guided workshops.&lt;/p&gt;
+
+&lt;p&gt;It is run through the console and everything is explained along the way. &lt;br&gt;
+This workshop covers what you have seen in the &lt;a href="http://www.lynda.com/SharedPlaylist/8330249d6cd34188aebe5aeb9b399491"&gt;Lynda.com tutorials for this class&lt;/a&gt;, and you will have to use the &lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/"&gt;node documentation&lt;/a&gt; to be able to complete the workshops. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Install&lt;/strong&gt; &lt;br&gt;
+In order to install the workshop you should open your console an write:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;npm install learnyounode -g  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you get an error try to prepend the command with "sudo"  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;sudo npm install learnyounode -g  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and type in your password for your computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Run&lt;/strong&gt; &lt;br&gt;
+Run the workshop with this command  &lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;learnyounode  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Have fun! and see you next friday.&lt;/p&gt;</content:encoded></item><item><title>09.1 Exercise: MongoDB Getting Started</title><description>&lt;p&gt;The information you will need for this exercise can be found at this &lt;a href="https://docs.mongodb.org/manual/core/crud-introduction/"&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Create a database called store. In this there should be a collection called users, and a collection called products.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Insert&lt;/strong&gt; &lt;br&gt;
+Insert 3 users in the users collection. The 2 below, and one your create yourself (your&lt;/p&gt;</description><link>http://localhost:2368/32/</link><guid isPermaLink="false">f790279c-c39e-4f02-811f-896ab8ef925d</guid><dc:creator>Claus Bové</dc:creator><pubDate>Wed, 10 Feb 2016 02:28:12 GMT</pubDate><content:encoded>&lt;p&gt;The information you will need for this exercise can be found at this &lt;a href="https://docs.mongodb.org/manual/core/crud-introduction/"&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Create a database called store. In this there should be a collection called users, and a collection called products.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Insert&lt;/strong&gt; &lt;br&gt;
+Insert 3 users in the users collection. The 2 below, and one your create yourself (your own name e.g). You can insert these one at a time or all 3 at the same time by wrapping them in an array [ ]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;{
+        "name" : "Claus",
+        "lastName" : "Bové",
+        "address" : "Svanemøllevej 56",
+        "phone" : "004512345678",
+        "email" : "clbo@kea.dk"
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;{
+        "name" : "Anna",
+        "lastName" : "Messner",
+        "address" : "Lygten 16",
+        "phone" : "004512345678",
+        "email" : "anna@stud.kea.dk"
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br&gt;
+Insert 3 products in the products collection. The 2 below, and one your create yourself. You can insert these one at a time or all 3 at the same time by wrapping them in an array [ ]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;{
+        "make" : "Burton Menswear London",
+        "name" : "Print T-shirt",
+        "color" : "white",
+        "price" : 16,
+        "size" : ["small", "medium", "large", "x-large"],
+        "details" : {
+                "length" : "standard",
+                "fit" : "normal",
+                "fabric" : "jersey",
+                "Neckline" : "Crew neck",
+                "Total length" : "28.0\"  (Size M)"
+        }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;{
+        "make" : "ONLY",
+        "name" : "ONLNEW - Slim fit jeans",
+        "color" : "black olive",
+        "price" : 30,
+        "size" : ["x-small", "small", "medium", "large", "x-large"],
+        "details" : {
+                "length" : "long",
+                "fit" : "normal",
+                "Pockets" : "Back pocket",
+                "outer leg length" : "40.0\" (Size S)",
+                "inner leg length" :  "31.5\" (Size S)"
+        }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;`   &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt; &lt;br&gt;
+Select all users, and after that select all products. &lt;br&gt;
+Then select the user with your own name, and then a single product of your own choice, by querying on the “_id”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; &lt;br&gt;
+The user with the name “Claus” should have another address. &lt;br&gt;
+Change the address to “Lygten 16”&lt;/p&gt;
+
+&lt;p&gt;The product ONLY, needs to have the name field changed to “ONLY NEW - Slim fit jeans”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remove&lt;/strong&gt; &lt;br&gt;
+Remove the user with the name Anna &lt;br&gt;
+Remove the product with the make “Burton Menswear London”&lt;/p&gt;</content:encoded></item><item><title>09.2 Exercise: MongoDB 2.0.0 Driver</title><description>&lt;p&gt;In the following exercises you should create 4 different applications (4 different javascript files), each containing 1 of the 4 CRUD operations.&lt;/p&gt;
+
+&lt;p&gt;You can read about the MongoDB 2.0.0 driver CRUD operations &lt;a href="https://github.com/mongodb/node-mongodb-native#quickstart"&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Find()&lt;/strong&gt; &lt;br&gt;
+Create an app that reads all users from your “store” database and prints them&lt;/p&gt;</description><link>http://localhost:2368/31/</link><guid isPermaLink="false">5c233046-7399-4c06-9db4-8eec74869c05</guid><dc:creator>Claus Bové</dc:creator><pubDate>Wed, 10 Feb 2016 02:21:48 GMT</pubDate><content:encoded>&lt;p&gt;In the following exercises you should create 4 different applications (4 different javascript files), each containing 1 of the 4 CRUD operations.&lt;/p&gt;
+
+&lt;p&gt;You can read about the MongoDB 2.0.0 driver CRUD operations &lt;a href="https://github.com/mongodb/node-mongodb-native#quickstart"&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Find()&lt;/strong&gt; &lt;br&gt;
+Create an app that reads all users from your “store” database and prints them out in the console.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Insert()&lt;/strong&gt; &lt;br&gt;
+Insert a user into the database. The user's id should be an automatic generated id.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update()&lt;/strong&gt; &lt;br&gt;
+Update the inner object “details” in the "products" collection so that the length becomes "long" of the "Burton Menswear London" product.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remove()&lt;/strong&gt; &lt;br&gt;
+Remove one of your users from the store database.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FindOne()&lt;/strong&gt; &lt;br&gt;
+Get the user you inserted earlier in this exercise. You should identify the person from it´s id, and for that you have to use the ObjectID method.&lt;/p&gt;</content:encoded></item><item><title>09.3 Exercise: MongoDB native driver and Express</title><description>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver.&lt;/p&gt;
+
+&lt;p&gt;The goal is, from the browser, to be able to request: localhost:3000/users and get a response with the data from the database in JSON format. &lt;br&gt;
+&lt;img src="http://localhost:2368/content/images/2016/10/json_screenshot.png" alt=""&gt;
+&lt;small&gt;&lt;i&gt;The result above is diffent from what you&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;</description><link>http://localhost:2368/30/</link><guid isPermaLink="false">1d5ed32c-4f57-4bb4-be74-4aeeeed86902</guid><dc:creator>Claus Bové</dc:creator><pubDate>Wed, 10 Feb 2016 02:17:29 GMT</pubDate><content:encoded>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver.&lt;/p&gt;
+
+&lt;p&gt;The goal is, from the browser, to be able to request: localhost:3000/users and get a response with the data from the database in JSON format. &lt;br&gt;
+&lt;img src="http://localhost:2368/content/images/2016/10/json_screenshot.png" alt=""&gt;
+&lt;small&gt;&lt;i&gt;The result above is diffent from what you will get out of the user request&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;i&gt;To get the nicely formated view, you can install the extension "JSONView" (for Google Chrome, or something similar for the other browsers).&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;!-- Solution can be found on [github](https://github.com/keanodejs/09_mongo_express) --&gt;</content:encoded></item><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
+
+&lt;table id="tbl"&gt;  
+&lt;tr&gt;  
+&lt;th&gt;Week&lt;/th&gt;  
+&lt;th&gt;Date&lt;/th&gt;  
+&lt;th&gt;Time&lt;/th&gt;  
+&lt;th&gt;Subject&lt;/th&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;35&lt;/td&gt;  
+&lt;td&gt;30/8 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 13:15&lt;/td&gt;  
+&lt;td&gt;Day 1 &lt;a href="http://localhost:2368/13/"&gt;Introduction&lt;/a&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;36&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;7/9 - 2016 *&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;14:00 - 17:45&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;Day 2 &lt;a href="http://localhost:2368/21/"&gt;Basic HTML &amp; CSS&lt;/a&gt;&lt;br&gt;&lt;small&gt;&lt;i&gt;Lessons moved to Wednesday 7/9, 14:00-17:45. Location: Lygten 16, Basement (rumfærgen)&lt;/i&gt;&lt;/small&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;37&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;13/&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description><link>http://localhost:2368/teaching-schedule/</link><guid isPermaLink="false">27b0b853-8a6c-4bcd-b887-f20ff281fd61</guid><dc:creator>Claus Bové</dc:creator><pubDate>Fri, 05 Feb 2016 23:49:00 GMT</pubDate><content:encoded>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
+
+&lt;table id="tbl"&gt;  
+&lt;tr&gt;  
+&lt;th&gt;Week&lt;/th&gt;  
+&lt;th&gt;Date&lt;/th&gt;  
+&lt;th&gt;Time&lt;/th&gt;  
+&lt;th&gt;Subject&lt;/th&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;35&lt;/td&gt;  
+&lt;td&gt;30/8 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 13:15&lt;/td&gt;  
+&lt;td&gt;Day 1 &lt;a href="http://localhost:2368/13/"&gt;Introduction&lt;/a&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;36&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;7/9 - 2016 *&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;14:00 - 17:45&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;Day 2 &lt;a href="http://localhost:2368/21/"&gt;Basic HTML &amp; CSS&lt;/a&gt;&lt;br&gt;&lt;small&gt;&lt;i&gt;Lessons moved to Wednesday 7/9, 14:00-17:45. Location: Lygten 16, Basement (rumfærgen)&lt;/i&gt;&lt;/small&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;37&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;13/9 - 2016 *&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;14:15 - 15:45&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;Day 3a &lt;a href="http://localhost:2368/14/"&gt;Version Control with Git&lt;/a&gt;&lt;br&gt;&lt;small&gt;&lt;i&gt;Lessons moved to Tuesday 13/9, 14:15-15:45. Location: Lygten 16, Basement (rumfærgen)&lt;/i&gt;&lt;/small&gt;  
+&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;37&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;15/9 - 2016 *&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;13:15 - 15:45&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;Day 3b &lt;a href="http://localhost:2368/14/"&gt;Version Control with Git&lt;/a&gt;&lt;br&gt;&lt;small&gt;&lt;i&gt;Lessons moved to Thursday 15/9, 13:15-15:45. Location: Lygten 37, 1-B-14&lt;/i&gt;&lt;/small&gt;  
+&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;38&lt;/td&gt;  
+&lt;td&gt;20/9 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 11:45&lt;/td&gt;  
+&lt;td&gt;Day 4 &lt;a href="http://localhost:2368/24/"&gt;Javascript &amp; Node.js&lt;/a&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;39&lt;/td&gt;  
+&lt;td&gt;4/10 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 11:45&lt;/td&gt;  
+&lt;td&gt;Day 5 &lt;a href="http://localhost:2368/16/"&gt;Node.js&lt;/a&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;40&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;5/10 - 2016*&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;8:30 - 13:15&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;Day 6 &lt;a href="http://localhost:2368/22/"&gt;Express.js&lt;/a&gt;  
+&lt;br&gt;&lt;small&gt;&lt;i&gt;NOTICE: Lessons moved to Wednesday 5/10, 08:30-13:15.&lt;/i&gt;&lt;/small&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;41&lt;/td&gt;  
+&lt;td&gt;11/10 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 13:15&lt;/td&gt;  
+&lt;td&gt;Day 7 &lt;b&gt;&lt;a href="http://localhost:2368/7/"&gt;Mandatory Assignment 1 &lt;/a&gt;&lt;b&gt;&lt;/b&gt;&lt;/b&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;42&lt;/td&gt;  
+&lt;td&gt;18/10 - 2016&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;8:30 - 13:15&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;Day 8 &lt;a href="http://localhost:2368/19/"&gt;Websockets Chat Server&lt;/a&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;43&lt;/td&gt;  
+&lt;td&gt;25/10 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 11:45&lt;/td&gt;  
+&lt;td&gt;Day 9 &lt;a href="http://localhost:2368/20/"&gt;MongoDB&lt;/a&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;!--&lt;tr&gt;  
+&lt;td&gt;44&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;2/11 - 2016 *&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;&lt;b&gt;8:30 - 13:15&lt;/b&gt;&lt;/td&gt;  
+&lt;td&gt;Day 10 &lt;a href="/25/"&gt;Restful API&lt;/a&gt;&lt;br&gt;&lt;small&gt;&lt;i&gt;Lessons moved to Wednesday 2/11, 08:30-13:15.&lt;/i&gt;&lt;/small&gt;&lt;/td&gt;  
+&lt;/tr&gt;--&gt;  
+&lt;tr&gt;  
+&lt;td&gt;45&lt;/td&gt;  
+&lt;td&gt;8/11 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 11:45&lt;/td&gt;  
+&lt;td&gt;Day 11 &lt;a href="http://localhost:2368/25/"&gt;Restful API&lt;/a&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;46&lt;/td&gt;  
+&lt;td&gt;&lt;/td&gt;  
+&lt;td&gt;&lt;/td&gt;  
+&lt;td&gt;Day 12 &lt;b&gt;KEA Innovation Week&lt;/b&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;47&lt;/td&gt;  
+&lt;td&gt;22/11 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 11:45&lt;/td&gt;  
+&lt;td&gt;Day 13 &lt;a href="http://localhost:2368/23/"&gt;Deployment &amp; Authentication&lt;/a&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;48&lt;/td&gt;  
+&lt;td&gt;29/11 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 11:45&lt;/td&gt;  
+&lt;td&gt;Day 14 &lt;b&gt;&lt;a href="http://localhost:2368/7/"&gt;Project Mandatory Assignment&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;49&lt;/td&gt;  
+&lt;td&gt;6/12 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 11:45&lt;/td&gt;  
+&lt;td&gt;Day 15 &lt;b&gt;&lt;a href="http://localhost:2368/7/"&gt;Project Mandatory Assignment&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;tr&gt;  
+&lt;td&gt;50&lt;/td&gt;  
+&lt;td&gt;13/12 - 2016&lt;/td&gt;  
+&lt;td&gt;8:30 - 11:45&lt;/td&gt;  
+&lt;td&gt;Buffer, subjects to be announced&lt;/td&gt;  
+&lt;/tr&gt;  
+&lt;/table&gt;
+
+&lt;p&gt;&lt;em&gt;* Time change from normal schedule&lt;/em&gt;  &lt;/p&gt;
+
+&lt;script&gt;  
+document.getElementsByTagName("article")[0].setAttribute("style", "max-width: 1200px");  
+&lt;/script&gt;
+
+&lt;script&gt;  
+/*
+var dates = [{week : 34, date : '5/2 - 2016'}, {week : 35, date : '12/2 - 2016'}, {week : 36, date : '&lt;b&gt;15/2 - 2016&lt;/b&gt;'}, {week : 37, date : '&lt;b&gt;18/2 - 2016&lt;/b&gt;'}, {week : 38, date : '26/2 - 2016'}, {week : 39, date : '4/3 - 2016'}, {week : 40, date : '11/3 - 2016'}, {week : 41, date : '18/3 - 2016'}, {week : 42, date : '25/3 - 2016'}, {week : 43, date : '1/4 - 2016'}, {week : 44, date : '8/4 - 2016'}, {week : 45, date : '15/4 - 2016'}, {week : 46, date : ''}, {week : 47, date : '29/4 - 2016'}, {week : 48, date : '6/5 - 2016'}, {week : 49, date : '13/5 - 2016'},{week : 50, date :  '20/5 - 2016'}];
+
+var table = document.getElementById("tbl");  
+var rows = table.getElementsByTagName("tr");  
+for(i = 1; i &lt; rows.length; i++){  
+  var tds = rows[i].getElementsByTagName("td"); 
+  tds[0].innerHTML= dates[i-1].week;
+  tds[1].innerHTML= dates[i-1].date;
+*/
+}
+
+&lt;/script&gt;</content:encoded></item><item><title>Curriculum</title><description>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;br&gt;
+The following resources is the course curriculum. &lt;br&gt;
+Your exam project should demonstrate the use of topics from this curriculum and you will furthermore be asked questions from this curriculum at the oral exam.&lt;/p&gt;
+
+&lt;!-- \* &lt;small&gt;_Note that this is not a complete list yet, it will grow as we advance through the elective._ &lt;/small&gt; --&gt;
+
+&lt;p&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You should know the code and examples used in the teachings and in the exercises.&lt;/p&gt;</description><link>http://localhost:2368/29/</link><guid isPermaLink="false">df5fcfa1-e2c2-43c6-8644-b043250305ad</guid><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 04 Feb 2016 14:39:34 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;br&gt;
+The following resources is the course curriculum. &lt;br&gt;
+Your exam project should demonstrate the use of topics from this curriculum and you will furthermore be asked questions from this curriculum at the oral exam.&lt;/p&gt;
+
+&lt;!-- \* &lt;small&gt;_Note that this is not a complete list yet, it will grow as we advance through the elective._ &lt;/small&gt; --&gt;
+
+&lt;p&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You should know the code and examples used in the teachings and in the exercises. You can find the code &lt;a href="https://github.com/keanodejs"&gt;here on GitHub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Command Line Client&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/"&gt;The Command Line Crash Course&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex2.html"&gt;Paths, Folders, Directories (pwd)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex4.html"&gt;Make A Directory (mkdir)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex5.html"&gt;Change Directory (cd)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex6.html"&gt;List Directory (ls)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex7.html"&gt;Remove Directory (rmdir)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex9.html"&gt;Making Empty Files (Touch, New-Item)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex14.html"&gt;Removing A File (rm)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Node.js&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/SharedPlaylist/8330249d6cd34188aebe5aeb9b399491"&gt;Node.js Playlist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Node.js v4.2.4 Documentation &lt;br&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/documentation.html"&gt;About this Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/synopsis.html"&gt;Synopsis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/buffer.html"&gt;Buffer&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/fs.html"&gt;File System&lt;/a&gt;   &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/globals.html"&gt;Global Objects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/modules.html"&gt;Modules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/path.html"&gt;Path&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/readline.html"&gt;Readline&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/stream.html"&gt;Stream&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/timers.html"&gt;Timers&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/url.html"&gt;URL&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/util.html"&gt;util&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/events.html"&gt;Events&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Express.js&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/Expressjs-tutorials/Building-Website-Nodejs-Expressjs/163094-2.html"&gt;Building a Website with Node.js and Express.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/writing-middleware.html"&gt;Writing middleware for use in Express apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/using-middleware.html"&gt;Using middleware&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/4x/api.html"&gt;4.x API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Websockets&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/SharedPlaylist/be6272aad8854a0fbc50dbf6627167e0"&gt;Websockets Playlist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;REST API&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.restapitutorial.com/media/RESTful_Best_Practices-v1_1.pdf"&gt;RESTful Service Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://json.org/"&gt;JSON&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;MongoDB&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.mongodb.org/manual/introduction/"&gt;https://docs.mongodb.org/manual/introduction/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Mongo Crud Tutorials&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.mongodb.org/manual/tutorial/insert-documents/"&gt;https://docs.mongodb.org/manual/tutorial/insert-documents/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.mongodb.org/manual/tutorial/query-documents/"&gt;https://docs.mongodb.org/manual/tutorial/query-documents/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.mongodb.org/manual/tutorial/modify-documents/"&gt;https://docs.mongodb.org/manual/tutorial/modify-documents/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.mongodb.org/manual/tutorial/remove-documents/"&gt;https://docs.mongodb.org/manual/tutorial/remove-documents/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.mongodb.org/manual/core/data-modeling-introduction/"&gt;Data Modeling Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/database-integration.html#mongo"&gt;http://expressjs.com/en/guide/database-integration.html#mongo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Deployment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction"&gt;Getting Started on Heroku with Node.js&lt;/a&gt; (The whole introduction)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;NPM&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally"&gt;https://docs.npmjs.com/getting-started/installing-npm-packages-locally&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Day 1 - Introduction</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 5/2-2016, 08:30 - 13:20&lt;/p&gt;
+
+&lt;p&gt;In this first class you will get introduced to what we are going to work on the next 14 weeks.   &lt;/p&gt;
+
+&lt;p&gt;You will also get an introduction to the Node.js framework, you will download and install the framework, and you will create&lt;/p&gt;</description><link>http://localhost:2368/13/</link><guid isPermaLink="false">e5a35968-9b1f-423f-8783-1a63b3bf7dd4</guid><category>Getting Started</category><category>Node.js</category><category>Day 1</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 04 Feb 2016 14:22:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/08/nodejs--1-.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/08/nodejs--1-.png" alt="Day 1 - Introduction"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 5/2-2016, 08:30 - 13:20&lt;/p&gt;
+
+&lt;p&gt;In this first class you will get introduced to what we are going to work on the next 14 weeks.   &lt;/p&gt;
+
+&lt;p&gt;You will also get an introduction to the Node.js framework, you will download and install the framework, and you will create your first webserver and webpage. This webserver will run locally on your computer and it will be accessable on your local network for everybody. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An overview of what will be covered in the next 14 weeks.
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://localhost:2368/29/"&gt;Curriculum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/exam-requirements/"&gt;Exam&lt;/a&gt; and &lt;a href="http://localhost:2368/7/"&gt;Mandatory Assignments&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Introduction to and installation of &lt;a href="https://nodejs.org/en/"&gt;Node.js&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/my-first-webserver/"&gt;Make your first Webserver&lt;/a&gt; and a Hello World web page.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tools:&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://git-scm.com/downloads"&gt;Git&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sublimetext.com/3"&gt;Sublime Text 3&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/en/"&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises:&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://git-scm.com/downloads"&gt;Install git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/"&gt;The Command Line Crash Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line"&gt;Introduction to the Mac OS X Command Li&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ubuntudanmark.dk/filer/fwunixref.pdf"&gt;Unix/Linux Command Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/my-first-webserver/"&gt;My first Webserver&lt;/a&gt; (used as "follow along" example in this class)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Code on Github: &lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;  
+    &lt;li&gt;&lt;a href="https://github.com/keanodejs"&gt;keanodejs&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=01"&gt;Todays examples&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Day 11 - Authentication</title><link>http://localhost:2368/28/</link><guid isPermaLink="false">6bb3f6d0-e1c7-48a0-bef0-3b006ef43da0</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 19:36:05 GMT</pubDate><content:encoded/></item><item><title>Day 10 - Rest Api</title><description>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.restapitutorial.com/media/RESTful_Best_Practices-v1_1.pdf"&gt;RESTful Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://json.org/"&gt;JSON&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.w3.org/wiki/CORS_Enabled#What_is_CORS_about.3F"&gt;CORS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;supplements to the curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/Node-js-tutorials/Readable-file-streams/417077/454449-4.html?autoplay=true"&gt;steams&lt;/a&gt;   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/35/"&gt;/Orders/ route&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop"&gt;Postman for Chrome&lt;/a&gt; (extension for Chrome)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc"&gt;JSONView&lt;/a&gt; (extension for Chrome)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=10"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/25/</link><guid isPermaLink="false">da7a0fcd-157d-48e8-aa62-045b897870d9</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 19:17:59 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/11/RESTful-API-design-1014x457.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/11/RESTful-API-design-1014x457.jpg" alt="Day 10 - Rest Api"&gt;&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.restapitutorial.com/media/RESTful_Best_Practices-v1_1.pdf"&gt;RESTful Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://json.org/"&gt;JSON&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.w3.org/wiki/CORS_Enabled#What_is_CORS_about.3F"&gt;CORS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;supplements to the curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/Node-js-tutorials/Readable-file-streams/417077/454449-4.html?autoplay=true"&gt;steams&lt;/a&gt;   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/35/"&gt;/Orders/ route&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop"&gt;Postman for Chrome&lt;/a&gt; (extension for Chrome)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc"&gt;JSONView&lt;/a&gt; (extension for Chrome)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=10"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Day 4 - Javascript</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 20/9-2016, 8:30 - 11:45&lt;/p&gt;
+
+&lt;p&gt;Today we will cover the basics of the Javascript language, and we will focus on the &lt;em&gt;EcmaScript 5&lt;/em&gt; standart. Where it makes sense, we will also look at the new features from &lt;em&gt;EcmaScript 6&lt;/em&gt; &lt;/p&gt;
+
+&lt;p&gt;The three semesters of Java Programming you have&lt;/p&gt;</description><link>http://localhost:2368/24/</link><guid isPermaLink="false">db945858-098c-4af2-a9d3-1ba74f2fe811</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 18:38:24 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/09/JavaScript-Logo-1.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/09/JavaScript-Logo-1.jpg" alt="Day 4 - Javascript"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 20/9-2016, 8:30 - 11:45&lt;/p&gt;
+
+&lt;p&gt;Today we will cover the basics of the Javascript language, and we will focus on the &lt;em&gt;EcmaScript 5&lt;/em&gt; standart. Where it makes sense, we will also look at the new features from &lt;em&gt;EcmaScript 6&lt;/em&gt; &lt;/p&gt;
+
+&lt;p&gt;The three semesters of Java Programming you have had so far will make it relative easy for you to learn a new language, including Javascript. And like you would if you where trying to learn C++ og C#, you will spend a little time to get to know the similarities and differences between what you already know and Javascript.&lt;/p&gt;
+
+&lt;p&gt;Javascript is often seen as almost similar to Java, and that makes most programmers just start using it before learning it. But as it turns out, it is quite different in many ways and therefore it is good to spend a little time to understand it before you just jump into it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Videos:&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=RO1Wnu-xKoY"&gt;Crockford on JavaScript – Chapter 2: And Then There Was JavaScript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=04"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Day 12 - Deployment</title><description>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction"&gt;Heroku - Getting started with node.js and MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=12"&gt;Materials from today&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/23/</link><guid isPermaLink="false">757fc1f0-0a42-44cf-80fe-b4454053f18e</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 08:45:24 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/node-mongodb-on-heroku.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/01/node-mongodb-on-heroku.png" alt="Day 12 - Deployment"&gt;&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction"&gt;Heroku - Getting started with node.js and MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=12"&gt;Materials from today&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 6 - Express.js</title><description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5/10-2016, 08:30 - 13:15 &lt;br&gt;
+&lt;em&gt;Notice that the time has changed!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;ExpressJS is maybe the most used Module on the Node.js platform, and today we will work with that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/Expressjs-tutorials/Building-Website-Nodejs-Expressjs/163094-2.html"&gt;Building a Website with Node.js and Express.js&lt;/a&gt; (2h 46m)   &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/4x/api.html"&gt;Express.js 4.x API&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/22/</link><guid isPermaLink="false">74c0c9a4-c493-454e-b447-67476f16f0b4</guid><category>ExpressJs</category><category>Node.js</category><category>Day 6</category><dc:creator>Claus Bové</dc:creator><pubDate>Sat, 19 Dec 2015 13:30:06 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/09/expressjs-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/09/expressjs-1.png" alt="Day 6 - Express.js"&gt;&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 5/10-2016, 08:30 - 13:15 &lt;br&gt;
+&lt;em&gt;Notice that the time has changed!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;ExpressJS is maybe the most used Module on the Node.js platform, and today we will work with that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/Expressjs-tutorials/Building-Website-Nodejs-Expressjs/163094-2.html"&gt;Building a Website with Node.js and Express.js&lt;/a&gt; (2h 46m)   &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/4x/api.html"&gt;Express.js 4.x API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Expressjs Getting Started
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://expressjs.com/en/starter/installing.html"&gt;http://expressjs.com/en/starter/installing.html&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/starter/hello-world.html"&gt;http://expressjs.com/en/starter/hello-world.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/starter/basic-routing.html"&gt;http://expressjs.com/en/starter/basic-routing.html&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/writing-middleware.html"&gt;Writing middleware for use in Express apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/using-middleware.html"&gt;Using middleware&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Supplements to the Curriculum&lt;/strong&gt;      &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=06"&gt;Materials from today&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 2 - Basic HTML &amp; CSS</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 07/09-2016, 14:00 - 17:45   &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lessons moved&lt;/strong&gt; &lt;br&gt;
+Location: Lygten 16, Basement (rumfærgen) - Wednesday: 14:00-17:45&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.w3schools.com/html/default.asp"&gt;HTML(5) Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.w3schools.com/css/"&gt;CSS Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Supplements to the Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.lynda.com/HTML-tutorials/Welcome/182177/370804-4.html"&gt;HTML5: Structure, Syntax, and Semantics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.lynda.com/CSS-tutorials/CSS-Fundamentals/417645-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3acss%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2"&gt;CSS Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=02"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Materials for this class: [Google Docs](https://docs.google.com/document/d/1TcPaRu1PBTyH9Z2p_4PLapGIJp5O1TS9clviUKMSL4A/edit) --&gt;</description><link>http://localhost:2368/21/</link><guid isPermaLink="false">41112ee1-60a4-4a4c-9b75-e322cc944d42</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 14 Dec 2015 15:27:51 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/08/html-css-js-logos-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/08/html-css-js-logos-1.png" alt="Day 2 - Basic HTML &amp; CSS"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 07/09-2016, 14:00 - 17:45   &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lessons moved&lt;/strong&gt; &lt;br&gt;
+Location: Lygten 16, Basement (rumfærgen) - Wednesday: 14:00-17:45&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.w3schools.com/html/default.asp"&gt;HTML(5) Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.w3schools.com/css/"&gt;CSS Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Supplements to the Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.lynda.com/HTML-tutorials/Welcome/182177/370804-4.html"&gt;HTML5: Structure, Syntax, and Semantics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.lynda.com/CSS-tutorials/CSS-Fundamentals/417645-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3acss%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2"&gt;CSS Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=02"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Materials for this class: [Google Docs](https://docs.google.com/document/d/1TcPaRu1PBTyH9Z2p_4PLapGIJp5O1TS9clviUKMSL4A/edit) --&gt;</content:encoded></item></channel></rss>
