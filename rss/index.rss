@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Fri, 28 Oct 2016 11:45:34 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Mon, 07 Nov 2016 22:09:02 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
 
@@ -152,11 +152,11 @@ Update the inner object “details” in the "products" collection so that the l
 Remove one of your users from the store database.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;FindOne()&lt;/strong&gt; &lt;br&gt;
-Get the user you inserted earlier in this exercise. You should identify the person from it´s id, and for that you have to use the ObjectID method.&lt;/p&gt;</content:encoded></item><item><title>09.3 Exercise: MongoDB native driver and Express</title><description>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver.&lt;/p&gt;
+Get the user you inserted earlier in this exercise. You should identify the person from it´s id, and for that you have to use the ObjectID method.&lt;/p&gt;</content:encoded></item><item><title>09.3 Exercise: MongoDB native driver and Express</title><description>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver. --&lt;/p&gt;
 
 &lt;p&gt;The goal is, from the browser, to be able to request: localhost:3000/users and get a response with the data from the database in JSON format. &lt;br&gt;
 &lt;img src="http://localhost:2368/content/images/2016/10/json_screenshot.png" alt=""&gt;
-&lt;small&gt;&lt;i&gt;The result above is diffent from what you&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;</description><link>http://localhost:2368/30/</link><guid isPermaLink="false">1d5ed32c-4f57-4bb4-be74-4aeeeed86902</guid><dc:creator>Claus Bové</dc:creator><pubDate>Wed, 10 Feb 2016 02:17:29 GMT</pubDate><content:encoded>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver.&lt;/p&gt;
+&lt;small&gt;&lt;i&gt;The result above is diffent from what&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;</description><link>http://localhost:2368/30/</link><guid isPermaLink="false">1d5ed32c-4f57-4bb4-be74-4aeeeed86902</guid><dc:creator>Claus Bové</dc:creator><pubDate>Wed, 10 Feb 2016 02:17:29 GMT</pubDate><content:encoded>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver. --&lt;/p&gt;
 
 &lt;p&gt;The goal is, from the browser, to be able to request: localhost:3000/users and get a response with the data from the database in JSON format. &lt;br&gt;
 &lt;img src="http://localhost:2368/content/images/2016/10/json_screenshot.png" alt=""&gt;
@@ -496,7 +496,7 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=10"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description><link>http://localhost:2368/25/</link><guid isPermaLink="false">da7a0fcd-157d-48e8-aa62-045b897870d9</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 19:17:59 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/RESTful-API-design-1014x457.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/01/RESTful-API-design-1014x457.jpg" alt="Day 10 - Rest Api"&gt;&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/25/</link><guid isPermaLink="false">da7a0fcd-157d-48e8-aa62-045b897870d9</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 19:17:59 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/11/RESTful-API-design-1014x457.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/11/RESTful-API-design-1014x457.jpg" alt="Day 10 - Rest Api"&gt;&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.restapitutorial.com/media/RESTful_Best_Practices-v1_1.pdf"&gt;RESTful Best Practices&lt;/a&gt;&lt;/li&gt;
