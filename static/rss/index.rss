@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Mon, 07 Nov 2016 22:05:20 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Mon, 07 Nov 2016 22:09:02 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
 
@@ -152,11 +152,11 @@ Update the inner object “details” in the "products" collection so that the l
 Remove one of your users from the store database.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;FindOne()&lt;/strong&gt; &lt;br&gt;
-Get the user you inserted earlier in this exercise. You should identify the person from it´s id, and for that you have to use the ObjectID method.&lt;/p&gt;</content:encoded></item><item><title>09.3 Exercise: MongoDB native driver and Express</title><description>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver.&lt;/p&gt;
+Get the user you inserted earlier in this exercise. You should identify the person from it´s id, and for that you have to use the ObjectID method.&lt;/p&gt;</content:encoded></item><item><title>09.3 Exercise: MongoDB native driver and Express</title><description>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver. --&lt;/p&gt;
 
 &lt;p&gt;The goal is, from the browser, to be able to request: localhost:3000/users and get a response with the data from the database in JSON format. &lt;br&gt;
 &lt;img src="http://localhost:2368/content/images/2016/10/json_screenshot.png" alt=""&gt;
-&lt;small&gt;&lt;i&gt;The result above is diffent from what you&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;</description><link>http://localhost:2368/30/</link><guid isPermaLink="false">1d5ed32c-4f57-4bb4-be74-4aeeeed86902</guid><dc:creator>Claus Bové</dc:creator><pubDate>Wed, 10 Feb 2016 02:17:29 GMT</pubDate><content:encoded>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver.&lt;/p&gt;
+&lt;small&gt;&lt;i&gt;The result above is diffent from what&lt;/i&gt;&lt;/small&gt;&lt;/p&gt;</description><link>http://localhost:2368/30/</link><guid isPermaLink="false">1d5ed32c-4f57-4bb4-be74-4aeeeed86902</guid><dc:creator>Claus Bové</dc:creator><pubDate>Wed, 10 Feb 2016 02:17:29 GMT</pubDate><content:encoded>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver. --&lt;/p&gt;
 
 &lt;p&gt;The goal is, from the browser, to be able to request: localhost:3000/users and get a response with the data from the database in JSON format. &lt;br&gt;
 &lt;img src="http://localhost:2368/content/images/2016/10/json_screenshot.png" alt=""&gt;
