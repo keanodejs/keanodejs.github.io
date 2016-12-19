@@ -1,14 +1,14 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Mon, 19 Dec 2016 07:18:51 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Exam Repetition &amp; QA</title><description>&lt;h2 id="topicsoftoday"&gt;Topics of today&lt;/h2&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Mon, 19 Dec 2016 07:20:19 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Exam Repetition &amp; QA</title><description>&lt;h2 id="topicsoftoday"&gt;Topics of today&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mandatory Assignments&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://localhost:2368/18/"&gt;Curriculum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/29/"&gt;Curriculum&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Questions&lt;/li&gt;
 &lt;/ul&gt;</description><link>http://localhost:2368/27/</link><guid isPermaLink="false">eb9fa6c4-6482-43e9-ab1e-55057bb9ab3c</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 19 Dec 2016 06:48:07 GMT</pubDate><content:encoded>&lt;h2 id="topicsoftoday"&gt;Topics of today&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Mandatory Assignments&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://localhost:2368/18/"&gt;Curriculum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/29/"&gt;Curriculum&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Questions&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title>10 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
 
