@@ -1,4 +1,16 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Mon, 21 Nov 2016 21:56:48 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>10 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Web Development</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Mon, 19 Dec 2016 06:50:15 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Exam Repetition &amp; QA</title><description>&lt;h2 id="topicsoftoday"&gt;Topics of today&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mandatory Assignments&lt;/li&gt;
+&lt;li&gt;Curriculum&lt;/li&gt;
+&lt;li&gt;Questions&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://localhost:2368/exam-repetition-qa/</link><guid isPermaLink="false">eb9fa6c4-6482-43e9-ab1e-55057bb9ab3c</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 19 Dec 2016 06:48:07 GMT</pubDate><content:encoded>&lt;h2 id="topicsoftoday"&gt;Topics of today&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mandatory Assignments&lt;/li&gt;
+&lt;li&gt;Curriculum&lt;/li&gt;
+&lt;li&gt;Questions&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>10 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
 
@@ -326,7 +338,7 @@ Get the user you inserted earlier in this exercise. You should identify the pers
 &lt;td&gt;51&lt;/td&gt;  
 &lt;td&gt;19/12 - 2016&lt;/td&gt;  
 &lt;td&gt;8:30 - 12:30&lt;/td&gt;  
-&lt;td&gt;Day 14 Exam repetition and Q&amp;A&lt;/td&gt;  
+&lt;td&gt;Day 14 &lt;a href="http://localhost:2368/27/"&gt;Exam repetition and Q&amp;A&lt;/a&gt;&lt;/td&gt;  
 &lt;/tr&gt;  
 &lt;/table&gt;
 
@@ -629,54 +641,4 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 
 &lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt; &lt;/p&gt;
 
-&lt;p&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=06"&gt;Materials from today&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 2 - Basic HTML &amp; CSS</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 07/09-2016, 14:00 - 17:45   &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lessons moved&lt;/strong&gt; &lt;br&gt;
-Location: Lygten 16, Basement (rumfærgen) - Wednesday: 14:00-17:45&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.w3schools.com/html/default.asp"&gt;HTML(5) Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.w3schools.com/css/"&gt;CSS Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Supplements to the Curriculum&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.lynda.com/HTML-tutorials/Welcome/182177/370804-4.html"&gt;HTML5: Structure, Syntax, and Semantics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.lynda.com/CSS-tutorials/CSS-Fundamentals/417645-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3acss%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2"&gt;CSS Fundamentals&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=02"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- Materials for this class: [Google Docs](https://docs.google.com/document/d/1TcPaRu1PBTyH9Z2p_4PLapGIJp5O1TS9clviUKMSL4A/edit) --&gt;</description><link>http://localhost:2368/21/</link><guid isPermaLink="false">41112ee1-60a4-4a4c-9b75-e322cc944d42</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 14 Dec 2015 15:27:51 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/08/html-css-js-logos-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/08/html-css-js-logos-1.png" alt="Day 2 - Basic HTML &amp; CSS"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 07/09-2016, 14:00 - 17:45   &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lessons moved&lt;/strong&gt; &lt;br&gt;
-Location: Lygten 16, Basement (rumfærgen) - Wednesday: 14:00-17:45&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.w3schools.com/html/default.asp"&gt;HTML(5) Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.w3schools.com/css/"&gt;CSS Tutorial&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Supplements to the Curriculum&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.lynda.com/HTML-tutorials/Welcome/182177/370804-4.html"&gt;HTML5: Structure, Syntax, and Semantics&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.lynda.com/CSS-tutorials/CSS-Fundamentals/417645-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3acss%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2"&gt;CSS Fundamentals&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=02"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- Materials for this class: [Google Docs](https://docs.google.com/document/d/1TcPaRu1PBTyH9Z2p_4PLapGIJp5O1TS9clviUKMSL4A/edit) --&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=06"&gt;Materials from today&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
